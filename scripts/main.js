@@ -1,8 +1,9 @@
+let games = []
 waitForAssetLoad(loadDefaultAssets()).then(() => {
     /**
      * @type {Game[]}
      */
-    let games = []
+    
 
     let mainGame = new Game(
         null, false, "",
